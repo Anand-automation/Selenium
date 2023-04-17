@@ -20,6 +20,6 @@ jobs:
     # The type of runner that the job will run on
     # Steps represent a sequence of tasks that will be executed as part of the job
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    uses: Anand-automation/BddFramework/.github/workflows/resuable.yml@main
+    uses: Anand-automation/BddFramework/.github/workflows/reusable.yml@main
 
 

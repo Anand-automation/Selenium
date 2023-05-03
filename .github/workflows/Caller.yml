@@ -33,5 +33,5 @@ jobs:
           echo test, and deploy your project.
           echo ${{ github.github_server_url }}
           echo ${{ github.job }}
-          ech0  ${{ github.runner }}
+          echo  ${{ github.runner }}
           

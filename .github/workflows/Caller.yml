@@ -30,10 +30,10 @@ jobs:
           
        # Runs a set of commands using the runners shell
       - name: Powershell script to the zip the repo
-        uses: Amadevus/pwsh-script@v2.0.1
-        with:
-         script: |
-           cd ${{ github.action_path }}
+       # uses: Amadevus/pwsh-script@v2.0.1
+       # with:
+        # script: |
+        run: |
            Compress-Archive -Path ${{ github.repository }}\Autmation -DestinationPath Realease.zip
            
            

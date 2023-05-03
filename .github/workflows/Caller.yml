@@ -34,6 +34,6 @@ jobs:
        # with:
         # script: |
         run: |
-           Compress-Archive -Path ${{ github.repository_owner}}/Anand-automation/Selenium/Autmation -DestinationPath Realease.zip
+           Compress-Archive -Path ${{ github.repository_owner}}\Selenium\Autmation -DestinationPath Realease.zip
            
            

@@ -33,6 +33,6 @@ jobs:
         uses: Amadevus/pwsh-script@v2.0.1
         with:
          script: |
-           Compress-Archive -Path ${{ github_action_path }}\Autmation -DestinationPath Realease.zip
+           Compress-Archive -Path Anand-automation\Selenium\Autmation -DestinationPath Realease.zip
            
            

@@ -33,6 +33,7 @@ jobs:
         uses: Amadevus/pwsh-script@v2.0.1
         with:
          script: |
-           Compress-Archive -Path ${{ github.action_path }}\Autmation -DestinationPath Realease.zip
+           cd ${{ github.action_path }}
+           Compress-Archive -Path ${{ github.repository }}\Autmation -DestinationPath Realease.zip
            
            

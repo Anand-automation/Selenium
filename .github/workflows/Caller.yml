@@ -31,3 +31,7 @@ jobs:
         run: |
           echo ${{ github.repository }}
           echo test, and deploy your project.
+          echo ${{ github.github_server_url }}
+          echo ${{ github.job }}
+          ech0  ${{ github.runner }}
+          

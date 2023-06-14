@@ -39,6 +39,6 @@ jobs:
        # with:
         # script: |
         run: |
-           Compress-Archive -Path ${{ github.workspace }}\Selenium\Autmation -DestinationPath Realease.zip
+           Compress-Archive -Path D:\a\BddFramework\BddFramework\main\Selenium\Autmation -DestinationPath Realease.zip
            
            

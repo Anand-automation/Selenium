@@ -24,7 +24,7 @@ jobs:
       - name: Checkout tools repo
         uses: actions/checkout@v3
         with:
-          repository: ${{ github.workspace }}/Selenium
+          repository: Anand-automation/Selenium
           path: main
 
       # Runs a single command using the runners shell
@@ -39,6 +39,6 @@ jobs:
        # with:
         # script: |
         run: |
-           Compress-Archive -Path Anand-automation\Selenium\Autmation -DestinationPath Realease.zip
+           Compress-Archive -Path Anand-automation/Selenium/Autmation -DestinationPath Realease.zip
            
            
